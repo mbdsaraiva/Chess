@@ -1,7 +1,6 @@
 package chess;
 
 
-import java.security.InvalidParameterException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -128,15 +127,17 @@ public class ChessMatch {
  		}
  		if (!type.equals("B") && !type.equals("H") &&!type.equals("R") && !type.equals("Q")) {
  			
- 			throw new InvalidParameterException("Invalid type for promotion");
+ 			return promoted;
  		}
  		
  		Position pos = promoted.getChessPosition().toPosition();
  		Piece p =  board.removePiece(pos);
  		piecesOnTheBoard.remove(p);
+ 		
  		ChessPiece newPiece = newPiece(type, promoted.getColor());
  		board.placePiece(newPiece, pos);
  		piecesOnTheBoard.add(newPiece);
+ 		
  		return newPiece;
  	}
  	
