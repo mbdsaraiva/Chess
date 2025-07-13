@@ -57,19 +57,10 @@ The chess system offers the following functionalities:
 
 Here are some images illustrating the chess system in action:
 
-### Board and Pieces
-
-![Chess Board](search_images/efQ6ibSBEfbi.png)
-*Representation of the board and pieces in the console.*
-
-### Game in Progress
-
-![Game in Progress](search_images/LYS9nUa0leDs.jpg)
-*Example of a game in progress, showing the console interface.*
-
 ### Game Overview
 
-![Overview](search_images/PYeaVB0OJMv9.jpg)
+![Overview](src/chessOverview.png)
+
 *Another perspective of the game interface, highlighting the clarity of the representation.*
 
 ## ⚙️ How to Run the Project
