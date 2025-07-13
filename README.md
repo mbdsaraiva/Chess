@@ -63,37 +63,3 @@ Here are some images illustrating the chess system in action:
 
 *Another perspective of the game interface, highlighting the clarity of the representation.*
 
-## ⚙️ How to Run the Project
-
-To run this project, you will need to have the Java Development Kit (JDK) installed on your machine. The project can be compiled and executed from any Java IDE (such as Eclipse, IntelliJ IDEA, or VS Code with Java extensions) or directly via the command line.
-
-### Prerequisites
-
-*   Java Development Kit (JDK) 8 or higher.
-
-### Compilation and Execution (via command line)
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/acenelio/chess-system-java.git
-    ```
-2.  **Navigate to the project directory:**
-    ```bash
-    cd chess-system-java
-    ```
-3.  **Compile the `.java` files:**
-    ```bash
-    javac -d bin src/*/*.java src/*/*/*.java
-    ```
-4.  **Run the main program:**
-    ```bash
-    java -cp bin application.Program
-    ```
-
-**Note**: The original project mentions creating a GitHub repository and `git push` commands. Make sure to set up your own repository if you wish to version your changes.
-
-## 🤝 Contributions
-
-Contributions are welcome! Feel free to open issues to report bugs or suggest improvements, or send pull requests with new features or fixes.
-
-
